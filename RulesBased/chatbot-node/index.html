@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <title>Chatbot</title>
   <style>
-    body { font-family: Arial; padding: 20px; }
-    #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; }
-    .user { color: blue; }
-    .bot { color: green; }
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    #chat {
+      border: 1px solid #ccc;
+      padding: 10px;
+      height: 300px;
+      overflow-y: scroll;
+    }
+
+    .user {
+      color: blue;
+    }
+
+    .bot {
+      color: green;
+    }
   </style>
 </head>
+
 <body>
-  <h2>Chatbot de Suporte</h2>
+  <h2>Chatbot de Suporte (Baseado em Regras)</h2>
   <div id="chat"></div>
   <input id="message" placeholder="Digite sua mensagem..." />
   <button onclick="sendMessage()">Enviar</button>
@@ -34,4 +51,5 @@
     }
   </script>
 </body>
+
 </html>
